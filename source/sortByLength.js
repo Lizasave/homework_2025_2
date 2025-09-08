@@ -3,12 +3,10 @@
  * @param {Array<String>} strings - массив строк
  *
  * @example
-
  * // returns ["ant", "bat", "cat", "dog"]
  * sortByLength(["cat", "bat", "ant", "dog"])
  *
  * @returns {Array<String>}
-
  */
 const sortByLength = strings => {
     let arrSort = strings.slice();
