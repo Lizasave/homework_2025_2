@@ -1,5 +1,6 @@
+'use strict';
 /**
- * Функция, определяющая максимальное число в массиве
+ * Функция, сортирующая массив строг по их длине
  * @param {Array<String>} strings - массив строк
  *
  * @example
@@ -8,7 +9,7 @@
  *
  * @returns {Array<String>}
  */
-const sortByLength = strings => {
+const sortByLength = (strings) => {
     let arrSort = strings.slice();
     return arrSort.sort((a,b) => {
         if (a.length === b.length) {
